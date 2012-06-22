@@ -1,0 +1,27 @@
+{
+  "author": "",
+  "name": "simple-mmo",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mizchi/simple-mmo.git"
+  },
+  "dependencies": {
+     "coffee-script": "*",
+     "express": "*",
+     "connect-assets": "*",
+     "connect-redis": "*",
+     "sugar": "*",
+     "socket.io":"*"
+   },
+  "devDependencies": {
+     "mocha": "*",
+     "sinon": "*",
+     "jsdom": "*",
+     "should": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
