@@ -9,19 +9,19 @@
   "dependencies": {
      "coffee-script": "*",
      "express": "*",
+     "socket.io":"*",
      "connect-assets": "*",
-     "connect-redis": "*",
-     "sugar": "*",
-     "socket.io":"*"
+     "underscore": "*"
    },
   "devDependencies": {
-     "mocha": "*",
-     "sinon": "*",
-     "jsdom": "*",
-     "should": "*"
+     "mocha": "1.1.x",
+     "sinon": "*"
   },
   "optionalDependencies": {},
   "engines": {
-    "node": "*"
+    "node": "0.6.x"
+  },
+  "scripts": {
+    "test": "make test"
   }
 }
